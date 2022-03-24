@@ -1,0 +1,23 @@
+ programa
+{
+    inclua biblioteca Util
+	inteiro s, i
+	inteiro senha = 0000
+	
+	
+	funcao inicio()
+    {
+        faca{
+            limpa()
+            escreva("Digite a Senha: ")
+		    leia(s)
+            se(s == senha){
+			    escreva("Senha correta, Bem vindo!")
+		    }senao{
+			    escreva("Senha incorreta, tente novamente!")
+			    Util.aguarde(1000)
+		    }
+        } enquanto(s!=senha)	
+	}
+}
+	
